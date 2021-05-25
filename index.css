@@ -1,0 +1,94 @@
+div.popupstart {
+	background-color: #ffff88;
+	width: 50%;
+	height: 60%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	z-index: 1;
+	border-radius: 30px;
+}
+
+div.popupchoose {
+	background-color: #bbbbff;
+	width: 50%;
+	height: 60%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	z-index: 1;
+	border-radius: 30px;
+	visibility: hidden;
+	line-height: 50%;
+}
+
+div.popupwinner {
+	background-color: #bbbbff;
+	width: 50%;
+	height: 60%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	z-index: 1;
+	border-radius: 30px;
+	visibility: hidden;
+}
+
+div.player1, div.player2 {
+	background-color: #ffff88;
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	top: 5%;
+	font-family: arial;
+	text-align: center;
+	font-size: 1.5em;
+	visibility: hidden;
+	border-radius: 30px;
+	box-shadow: 15px 15px 15px red;
+	line-height: 50%;
+}
+
+div.player1 {
+	left: 5%;
+}
+
+div.player2 {
+	right: 5%;
+}
+
+table {
+	margin: auto;
+}
+
+img {
+	width: 150px;
+	height: 200px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;	
+}
+
+p.popup, p.value {
+	text-align: center;
+	font-size: 200%;
+	color: red;
+	margin: auto;
+	margin-top: 50px;
+}
+
+button.popup {
+	position: absolute;
+	left: 45%;
+	bottom:10%;
+	width: 10%;
+	height: 10%;
+	border-radius: 10px;
+	box-shadow: 5px 10px 5px;
+	font-family: arial;
+	font-size: 1em;
+	cursor: pointer;
+	font-weight: bold;
+	}
